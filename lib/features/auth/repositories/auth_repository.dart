@@ -17,7 +17,7 @@ class AuthRepository {
         _firestore = firestore,
         _googleSignIn = googleSignIn;
 
-  void SignInWithGooge() async {
+  void signInWithGooge() async {
     try {
       final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
 

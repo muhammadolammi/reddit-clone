@@ -6,7 +6,7 @@ class AuthConroller {
   AuthConroller({required AuthRepository authRepository})
       : _authRepository = authRepository;
 
-  void SignInWithGoogle() {
-    _authRepository.SignInWithGooge();
+  void signInWithGoogle() {
+    _authRepository.signInWithGooge();
   }
 }
